@@ -59,6 +59,22 @@ Um dos maiores aprendizados sobre automação em nuvem é o comportamento atômi
 
 ---
 
+## 📸 Arquitetura do Fluxo Automatizado
+
+Para validar a estrutura e a sintaxe da infraestrutura antes de qualquer execução física, o template foi processado utilizando a ferramenta **AWS Infrastructure Composer**. O resultado obteve sucesso absoluto em duas frentes de visualização:
+
+### 1. Validação de Sintaxe (Visão de Modelo/Código)
+O motor da AWS validou que a estrutura estruturada em YAML cumpre rigorosamente os requisitos da plataforma, apresentando conformidade total e zero erros.
+
+![Validação de Código e Modelo](./images/CloudFormationModelo.jpg)
+
+### 2. Modelagem Gráfica (Visão de Tela/Design)
+A ferramenta traduziu o código estático em blocos lógicos interativos, mapeando graficamente o ciclo de vida e a existência do Bucket S3 e da Fila SQS.
+
+![Gráfico Visual da Infraestrutura](./images/CloudFormationTela.jpg)
+
+---
+
 ## 🛠️ Paralelo de Carreira: Da Malha de Produção à Nuvem Automatizada
 
 Para profissionais com bagagem em ambientes tradicionais padronizados, como as arquiteturas de **Mainframe**, o CloudFormation guarda uma semelhança conceitual profunda com a automação de rotinas via **JCL e utilitários de sistema**. 
