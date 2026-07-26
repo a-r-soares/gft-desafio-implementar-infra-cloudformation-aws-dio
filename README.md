@@ -66,12 +66,12 @@ Para validar a estrutura e a sintaxe da infraestrutura antes de qualquer execuç
 ### 1. Validação de Sintaxe (Visão de Modelo/Código)
 O motor da AWS validou que a estrutura estruturada em YAML cumpre rigorosamente os requisitos da plataforma, apresentando conformidade total e zero erros.
 
-![Validação de Código e Modelo](./images/CloudFormationModelo.jpg)
+![Validação de Código e Modelo](./images/CloudFormationModelo.png)
 
 ### 2. Modelagem Gráfica (Visão de Tela/Design)
 A ferramenta traduziu o código estático em blocos lógicos interativos, mapeando graficamente o ciclo de vida e a existência do Bucket S3 e da Fila SQS.
 
-![Gráfico Visual da Infraestrutura](./images/CloudFormationTela.jpg)
+![Gráfico Visual da Infraestrutura](./images/CloudFormationTela.png)
 
 ---
 
